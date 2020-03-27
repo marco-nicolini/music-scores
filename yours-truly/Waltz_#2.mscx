@@ -10,6 +10,7 @@
       <pageWidth>8.27</pageWidth>
       <pageHeight>11.69</pageHeight>
       <pagePrintableWidth>7.4826</pagePrintableWidth>
+      <createMultiMeasureRests>1</createMultiMeasureRests>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -217,15 +218,15 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Tempo>
-            <tempo>2.16667</tempo>
-            <followText>1</followText>
-            <offset x="-12.6626" y="-3.31443"/>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 130</b></text>
-            </Tempo>
           <Harmony>
             <root>13</root>
             </Harmony>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <offset x="-5.78321" y="-4.84523"/>
+            <text><sym>metNoteQuarterUp</sym><sym>space</sym><sym>metAugmentationDot</sym> = 80</text>
+            </Tempo>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -905,16 +906,6 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <notes>1</notes>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -929,18 +920,6 @@
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <notes>-1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1836,15 +1815,15 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
