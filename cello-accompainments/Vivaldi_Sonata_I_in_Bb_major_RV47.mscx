@@ -8679,6 +8679,13 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.33333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <offset x="-0.710031" y="-4.60345"/>
+            <text><sym>metNoteQuarterUp</sym> = 80</text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -8701,12 +8708,6 @@
             <offset x="-0.0497004" y="-4.49448"/>
             <text><i><font size="17"/>Allegro</i></text>
             </StaffText>
-          <Tempo>
-            <tempo>1.33333</tempo>
-            <followText>1</followText>
-            <offset x="-7.02931" y="-5.11612"/>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 80</b></text>
-            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
